@@ -1,0 +1,26 @@
+.product-image{
+    max-width: 500px;
+    max-height: 500px;
+}
+
+.product-add {
+    color: #FFF;
+    background-color: green;
+    padding: 10px;
+    border-radius: 50%;
+    border: none;
+    margin: 15px;
+}
+
+.product-remove {
+    color: #FFF;
+    background-color: red;
+    padding: 10px;
+    border-radius: 50%;
+    border: none;
+    margin: 15px;
+}
+
+.product-add:hover, .product-remove:hover {
+    cursor: pointer;
+}

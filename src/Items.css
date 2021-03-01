@@ -1,0 +1,49 @@
+.item{
+    position: relative;
+    right: 14%;
+    width: 110%;
+    background-color: rgb(20, 97, 107);
+    box-shadow: 2px 2px 2px 2px #555555;
+    padding: 6px;
+    margin: 10px;
+}
+
+.item-name{
+    float: left;
+    display: inline-block;
+}
+
+.item-price{
+    display: inline-block;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.item-name:hover, .item-price:hover{
+    color: #ccc;
+}
+
+.item-buttons{
+    float: right;
+}
+
+.item-add {
+    color: #FFF;
+    background-color: green;
+    padding: 10px;
+    border-radius: 50%;
+    border: none;
+    margin: 5px;
+}
+
+.item-remove {
+    color: #FFF;
+    background-color: red;
+    padding: 10px;
+    border-radius: 50%;
+    border: none;
+}
+
+.item-add:hover, .item-remove:hover {
+    cursor: pointer;
+}
