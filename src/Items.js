@@ -11,9 +11,10 @@ const Item = ({id, name, price, quantity}) => {
         <li className="item">
             <Link exact to={`/inventory/${id}`} style={{ color:'inherit'}}>
                 <h3 className="item-name">{name}</h3>
-                <h4 className="item-price">${price}</h4>
+                
             </Link>
             <span className="item-buttons">
+            <h4 className="item-price">${price}</h4>
                 <button
                 className="item-remove"
                 onClick={remove}>

@@ -7,11 +7,11 @@ function Nav() {
   const quantity = useSelector(state => state.cartQty);
   const total = useSelector(state => state.total);
   return (
-    <div>
+    <div className="navbar-wrapper">
       <nav className="navbar">
         <NavLink exact to="/" className="shoply-home">Shoply</NavLink>
         <NavLink exact to="/cart" className="cart-stats" data-testid="cart">
-          <h4>In Cart: {quantity} <br/> Total: ${total}</h4>
+          <h4>In Cart: {quantity} <br/> Total: ${total} <br/> Checkout</h4>
         </NavLink>
       </nav>
     </div>
