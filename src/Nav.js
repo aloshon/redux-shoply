@@ -11,7 +11,7 @@ function Nav() {
       <nav className="navbar">
         <NavLink exact to="/" className="shoply-home">Shoply</NavLink>
         <NavLink exact to="/cart" className="cart-stats" data-testid="cart">
-          <h4>In Cart: {quantity} <br/> Total: ${total} <br/> Checkout</h4>
+          <i className="fa fa-shopping-cart" style={{fontSize: 36}}></i><h4> {quantity} <br/> Total: ${total} <br/> Checkout</h4>
         </NavLink>
       </nav>
     </div>
