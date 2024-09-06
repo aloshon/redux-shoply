@@ -21,12 +21,12 @@ const ItemDetails = () => {
             <p><b>Description:</b> {description}</p>
             <span className="buttons">
                 <button
-                className="product-remove"
+                className="product-removed"
                 onClick={remove}>
                     Remove
                 </button>
                 <button 
-                className="product-add"
+                className="product-added"
                 onClick={add}>
                     Add To Cart
                 </button>

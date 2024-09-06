@@ -3,18 +3,18 @@
     max-height: 300px;
 }
 
-.product-add {
+.product-added {
     color: #FFF;
-    background-color: green;
+    background-color: rgba(2, 98, 2, 0.869);
     padding: 10px;
     border-radius: 50%;
     border: none;
     margin: 15px;
 }
 
-.product-remove {
+.product-removed {
     color: #FFF;
-    background-color: red;
+    background-color: orange;
     padding: 10px;
     border-radius: 50%;
     border: none;
