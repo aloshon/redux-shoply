@@ -3,7 +3,7 @@
     max-height: 300px;
 }
 
-.product-added {
+.product-add {
     color: #FFF;
     background-color: rgba(2, 98, 2, 0.869);
     padding: 10px;
@@ -12,15 +12,24 @@
     margin: 15px;
 }
 
-.product-removed {
-    color: #FFF;
-    background-color: orange;
+.product-remove {
+    color: #CCC;
+    background-color: #222;
     padding: 10px;
     border-radius: 50%;
     border: none;
     margin: 15px;
+    text-decoration: none;
 }
 
-.product-add:hover, .product-remove:hover {
+.product-add:hover {
     cursor: pointer;
+    color: #FFF;
+    background-color: #007700;
+}
+
+.product-remove:hover {
+    cursor: pointer;
+    color: #FFF;
+    background-color: #111;
 }

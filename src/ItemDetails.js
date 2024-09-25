@@ -1,5 +1,5 @@
 import {useDispatch} from 'react-redux';
-import {useParams} from "react-router-dom";
+import {useParams, Link} from "react-router-dom";
 import './ItemDetails.css';
 import data from './data.json';
 
@@ -21,12 +21,14 @@ const ItemDetails = () => {
             <p><b>Description:</b> {description}</p>
             <span className="buttons">
                 <button
-                className="product-removed"
-                onClick={remove}>
-                    Remove
-                </button>
+                    className="product-remove"
+                    onClick={remove}>
+                        <Link exact to={`/`} style={{ color:'inherit'}} className="product-remove">
+                            Back
+                        </Link>
+                </button> 
                 <button 
-                className="product-added"
+                className="product-add"
                 onClick={add}>
                     Add To Cart
                 </button>
