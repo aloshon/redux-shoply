@@ -8,7 +8,7 @@ const Item = ({id, name, price, quantity}) => {
     const add = () => dispatch({type: "ADD", id: id, price: price});
     const remove = () => dispatch({type: "REMOVE", id: id, price: price});
     return (
-        <li className="item">
+        <li className="items">
             <Link exact to={`/inventory/${id}`} style={{ color:'inherit'}}>
                 <h3 className="item-name">{name}</h3>
                 

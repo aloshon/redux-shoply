@@ -1,0 +1,11 @@
+.homepage-list {
+    margin-top: 100px;
+    list-style-type: 'none';
+    display: "flex"; 
+    flex-direction: "column";
+    justify-content: "center";
+    align-items: "center";
+    padding: 20px;
+    width: 77%;
+    max-width: 880px;
+}
