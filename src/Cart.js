@@ -19,7 +19,7 @@ const Cart = () => {
     }
     return(
         <div className="cart-container">
-            <h1>Checkout</h1>
+            <h1 className="checkout">Checkout</h1>
             <ul className="cart-list">
                 {Object.keys(inCart).map(id => (
                     <Items key={id} 

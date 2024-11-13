@@ -1,4 +1,12 @@
 .cart-list {
-    padding-top: 100px;
     list-style-type: none;
+    border: 1px solid #39FF14;
+    padding: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.checkout {
+    margin-bottom: 80px;
 }
