@@ -13,18 +13,19 @@ const Item = ({id, name, price, quantity}) => {
                 <h3 className="item-name">{name}</h3>
                 
             </Link>
-            <span className="item-buttons">
+            <span className="item-h3s">
             <h4 className="item-price">${price}</h4>
-                <button
-                className="item-remove"
-                onClick={remove}>
-                    Remove
-                </button>
-                <button 
-                className="item-add"
-                onClick={add}>
-                    Add To Cart
-                </button>
+                <h3 
+                    className="item-add"
+                    onClick={add}>
+                        +
+                </h3>
+                <h3
+                    className="item-remove"
+                    onClick={remove}>
+                        -
+                </h3>
+                
             </span>
             {quantity && <p><small>qty: {cart[id]}</small></p>}
         </li>

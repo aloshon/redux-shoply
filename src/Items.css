@@ -28,19 +28,13 @@
 }
 
 .item-add {
-    color: #FFF;
-    background-color: green;
-    padding: 10px;
-    border-radius: 50%;
+    color: #0F0;
     border: none;
     margin: 5px;
 }
 
 .item-remove {
-    color: #FFF;
-    background-color: red;
-    padding: 10px;
-    border-radius: 50%;
+    color: #F00;
     border: none;
 }
 
