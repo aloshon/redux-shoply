@@ -18,7 +18,7 @@ const ItemDetails = () => {
             className="product-image"
             alt={name} 
             src={image_url} />
-            <p><b>Description:</b> {description}</p>
+            <p>{description}</p>
             <span className="buttons">
                 <button
                     className="product-remove"
