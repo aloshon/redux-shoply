@@ -29,15 +29,34 @@
 
 .item-add {
     color: #0F0;
-    border: none;
-    margin: 5px;
+    border: 1px solid #0F0;
+    border-radius: 50%;
+    padding-bottom: 4px;
+    width: 32px;
+    height: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .item-remove {
     color: #F00;
-    border: none;
+    border: 1px solid #F00;
+    border-radius: 50%;
+    padding-bottom: 4px;
+    width: 32px;
+    height: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .item-add:hover, .item-remove:hover {
     cursor: pointer;
+}
+
+.quantity-buttons {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
 }

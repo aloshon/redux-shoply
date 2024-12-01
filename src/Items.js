@@ -13,8 +13,9 @@ const Item = ({id, name, price, quantity}) => {
                 <h3 className="item-name">{name}</h3>
                 
             </Link>
-            <span className="item-h3s">
+            <span className="item-hs">
             <h4 className="item-price">${price}</h4>
+                <span className="quantity-buttons">
                 <h3 
                     className="item-add"
                     onClick={add}>
@@ -25,6 +26,7 @@ const Item = ({id, name, price, quantity}) => {
                     onClick={remove}>
                         -
                 </h3>
+                </span>
                 
             </span>
             {quantity && <p><small>qty: {cart[id]}</small></p>}
