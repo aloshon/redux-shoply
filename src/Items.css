@@ -39,6 +39,12 @@
     align-items: center;
 }
 
+.item-add:hover {
+    color: #222;
+    background-color: #0F0;
+
+}
+
 .item-remove {
     color: #F00;
     border: 1px solid #F00;
@@ -49,6 +55,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.item-remove:hover {
+    color: #222;
+    background-color: #F00;
+
 }
 
 .item-add:hover, .item-remove:hover {
