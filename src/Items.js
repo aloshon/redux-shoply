@@ -2,16 +2,16 @@ import {useDispatch, useSelector} from 'react-redux';
 import {Link} from "react-router-dom";
 import './Items.css';
 
-const Item = ({id, name, price, quantity}) => {
+const Item = ({id, name, price, image, quantity}) => {
     const cart = useSelector(state => state.cart);
     const dispatch = useDispatch();
     const add = () => dispatch({type: "ADD", id: id, price: price});
     const remove = () => dispatch({type: "REMOVE", id: id, price: price});
     return (
         <li className="items">
-            <Link exact to={`/inventory/${id}`} style={{ color:'inherit'}}>
-                <h3 className="item-name">{name}</h3>
-                
+            <Link className="item-link" exact to={`/inventory/${id}`}>
+                <img className="item-image" alt={name} src={image} />
+                <h3 className="item-name">{name}</h3>          
             </Link>
             <span className="item-hs">
             <h4 className="item-price">${price}</h4>
