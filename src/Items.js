@@ -10,7 +10,9 @@ const Item = ({id, name, price, image, quantity}) => {
     return (
         <li className="items">
             <Link className="item-link" exact to={`/inventory/${id}`}>
-                <img className="item-image" alt={name} src={image} />
+                <span className="item-image-wrapper">
+                    <img className="item-image" alt={name} src={image} />
+                </span>
                 <h3 className="item-name">{name}</h3>          
             </Link>
             <span className="item-hs">
