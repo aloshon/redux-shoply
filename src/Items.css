@@ -17,7 +17,6 @@
 
 .item-name{
     float: left;
-    margin-left: 24px;
 }
 
 .item-name:hover {
@@ -31,6 +30,13 @@
 .item-image {
     max-width: 14rem;
     max-height: 14rem;
+}
+
+@media (max-width: 700px) {
+    .item-image {
+        max-width: 8rem;
+        max-height: 8rem;
+    }
 }
 
 .item-add {
@@ -91,10 +97,17 @@
 .item-image-wrapper {
     display: flex;
     border-radius: 10%;
+    padding: 2rem;
     margin: 4px;
     justify-content: center;
     align-items: center;
     background-color: rgba(77,77,77,0.1);
     width: 12rem;
     flex-direction: column;
+}
+
+@media (max-width: 700px) {
+    .item-image {
+        min-width: 8rem;
+    }
 }
