@@ -12,8 +12,8 @@ const Item = ({id, name, price, image, quantity}) => {
             <Link className="item-link" exact to={`/inventory/${id}`}>
                 <span className="item-image-wrapper">
                     <img className="item-image" alt={name} src={image} />
-                </span>
-                <h3 className="item-name">{name}</h3>          
+                    <h3 className="item-name">{name}</h3>
+                </span>          
             </Link>
             <span className="item-hs">
             <h4 className="item-price">${price}</h4>
