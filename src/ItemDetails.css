@@ -13,7 +13,7 @@
 }
 
 .product-remove {
-    color: #CCC;
+    color: #FFF;
     background-color: #222;
     padding: 10px;
     border-radius: 50%;
@@ -30,6 +30,6 @@
 
 .product-remove:hover {
     cursor: pointer;
-    color: #FFF;
+    color: #CCC;
     background-color: #111;
 }
